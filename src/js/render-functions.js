@@ -64,3 +64,14 @@ export function createGallery(images) {
 export function clearGallery() {
   gallery.innerHTML = '';
 }
+
+//////!
+const loadMoreBtn = document.querySelector('.load-more');
+
+export function showLoadMoreButton() {
+  loadMoreBtn.classList.remove('is-hidden');
+}
+
+export function hideLoadMoreButton() {
+  loadMoreBtn.classList.add('is-hidden');
+}

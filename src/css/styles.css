@@ -110,3 +110,16 @@ body {
   line-height: 2;
   color: #2e2f42;
 }
+
+.is-hidden {
+  display: none;
+}
+
+.load-more {
+  display: block;
+  margin: 32px auto 0;
+}
+
+.load-more.is-hidden {
+  display: none;
+}
